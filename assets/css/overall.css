@@ -1,0 +1,13 @@
+table > thead > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td {
+	text-align: center !important;
+}
+
+.error {
+	color: red !important;
+}
+
+
+.ti-star-filled:before {
+	content: '\e006'; /* Assuming \e006 is the unicode for the filled star */
+	color: #ffc107;   /* Adjust the color as needed */
+}
